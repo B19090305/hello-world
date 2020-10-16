@@ -19,4 +19,6 @@ int main()
    b=StrCpy(a);
    printf("%S",b);
    return 0;
+
 }
+
