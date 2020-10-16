@@ -13,3 +13,10 @@ char *StrCpy(char* scr)
 	fp[len]='\0';
 	return fp;
 }
+int main()
+{
+   char a[10]="helloworld",b=[10];
+   b=StrCpy(a);
+   printf("%S",b);
+   return 0;
+}
